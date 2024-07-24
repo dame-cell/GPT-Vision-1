@@ -19,10 +19,11 @@ answer = model.generate(image=image,question=question,max_new_tokens=40)
 print("Answer:", answer)
 ```
 
+
 | Image | Response |
 |-------|----------|
-| ![barbie](GPT-Vision/Images/barbie.jpg) | a girl doll with a pink dress |
-| ![pc](GPT-Vision/Images/pc.jpg) |  a computer keyboard with a keyboard and a keyboard on it, on a wooden table with a laptop and a keyboard tray in the middle |
+| <img src="GPT-Vision/Images/barbie.jpg" alt="barbie" width="200" height="300"> | A girl doll with a pink dress |
+| <img src="GPT-Vision/Images/pc.jpg" alt="pc" width="300" height="200"> | A computer keyboard with a keyboard and a keyboard on it, on a wooden table with a laptop and a keyboard tray in the middle |
 
 
 # Model architecture 
