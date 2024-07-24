@@ -19,6 +19,8 @@ answer = model.generate(image=image,question=question,max_new_tokens=40)
 print("Answer:", answer)
 ```
 
+
+
 # Model architecture 
 
 This Model follows the same architecture as LLava 
