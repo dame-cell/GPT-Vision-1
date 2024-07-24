@@ -4,6 +4,21 @@ We all like Moondream the 1 billion Parameters Vision Language model that kicks 
 
 Well how about something smaller a 200 Million Parameter Vision Language model which is not as good as I would like it to be 
 
+```python
+from transformers import AutoModelForCausalLM
+from PIL import Image
+
+model = AutoModelForCausalLM.from_pretrained("damerajee/GPT-Vision", trust_remote_code=True)
+
+image_path = "Your_image_path"
+image = Image.open(image_path)
+image = image.convert('RGB')
+
+question = "Render a clear and concise summary of the photo."
+answer = model.generate(image=image,question=question,max_new_tokens=40)
+print("Answer:", answer)
+```
+
 # Model architecture 
 
 This Model follows the same architecture as LLava 
