@@ -30,6 +30,11 @@ print("Answer:", answer)
 
 This Model follows the same architecture as LLava 
 
+| Model | HF-LINK | 
+-------|----------|
+| GPT-VISION-1(This model is the pre-trained model )|[GPT-Vision-1](https://huggingface.co/damerajee/GPT-Vision) |
+| GPT-VISION-1-FT(This model is the finetuned-one)| [GPT-Vision-1-ft](https://huggingface.co/damerajee/GPTVision-1-ft) |
+
 # Training Details 
 
 - We first pre-train the model while freezing the LLM and the Vision Transformers and only pre-training the projector which is a simple MLP nothing unqiue 
@@ -37,9 +42,7 @@ This Model follows the same architecture as LLava
 - Load the pre-train model for fine-tuning but this time we froze only the Vision Transformers  
 - `Also the entire process of this training was done on FREE GPUs specifically the kaggles P100 and 2 T4 GPUs`
 
-# Things to do in the future 
-- Want to do the same but for  HINDI langauge 
-- Want to try using the same architecture as IDEFICS-2 
+
 
 
 
