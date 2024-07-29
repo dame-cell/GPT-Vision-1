@@ -22,7 +22,7 @@ print("Answer:", answer)
 | Image | Question | Response |
 |-------|----------|----------|
 | <img src="GPT-Vision/Images/barbie.jpg" alt="barbie" width="200"> | what color is the doll dress? | A girl doll with a pink dress |
-| <img src="GPT-Vision/Images/pc.jpg" alt="pc" width="200"> | Write a terse but informative summary of the picture. | A computer keyboard with a keyboard and a keyboard on it, on a wooden table with a laptop and a keyboard tray in the middle |
+| <img src="GPT-Vision/Images/pc.jpg" alt="pc" width="200"> | Write a terse but informative summary of the picture. | A computer keyboard with a keyboard  on it, on a wooden table with a laptop and a keyboard tray in the middle |
 
 
 
