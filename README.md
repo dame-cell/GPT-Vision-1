@@ -39,7 +39,8 @@ This Model follows the same architecture as LLava
 
 - We first pre-train the model while freezing the LLM and the Vision Transformers and only pre-training the projector which is a simple MLP nothing unqiue 
 - Then save the pre-train model to huggingface 
-- Load the pre-train model for fine-tuning but this time we froze only the Vision Transformers  
+- Load the pre-train model for fine-tuning but this time we froze only the Vision Transformers
+- Notice that i use A simple VISION TRANSFORMERS instead of siglip or clip  because i wanted less parameters  
 - `Also the entire process of this training was done on FREE GPUs specifically the kaggles P100 and 2 T4 GPUs`
 
 
